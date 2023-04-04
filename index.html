@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Please input your code</h1>
+        <p class="example">Example: <span>.one>div^a</span><br>
+        Up to 3 levels (<span>.one>div^a>span</span> returns error)<br>
+        New raw is a new level.<br>
+        . - class<br>
+        # - id<br>
+        > 1st level<br>
+        div - tag names<br>
+        {} - text
+        </p>
+        <div class="code-container">
+            <div class="window">
+                <nav class="control">
+                    <input type="button" id="toCode-btn" value=">>">
+                </nav>
+                <textarea class="code-area" name="code" id="user-code" cols="30" rows="10"></textarea>
+            </div>
+            <div class="window">
+                <nav class="control"></nav>
+                <section class="code-area" id="result"></section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

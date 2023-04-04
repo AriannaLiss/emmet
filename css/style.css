@@ -1,0 +1,76 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    position:absolute;
+    top:1rem;
+    left:1rem;
+    right:1rem;
+    bottom:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #a3a3a31c;
+    border-radius: 1rem;
+    padding: 1rem;;
+}
+
+.example{
+    font-size: 20px;
+    margin:0 0 1rem;
+}
+
+.example span{
+    font-weight: bold;
+    color: rgb(71, 71, 71)
+}
+
+.code-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    flex: 1 1 auto;
+    align-self: stretch;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.window{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background-color: rgba(107, 107, 107, 0.204);
+}
+
+.control{
+    display: flex;
+    justify-content: end;
+    height: 3rem;
+}
+
+.control > input[type='button']{
+    margin: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    color:white;
+    border-radius: 1rem;
+    background-color: black;
+}
+
+.code-area{
+    flex: 1 0 auto;
+    padding: 2rem;
+}
+
+#user-code{
+    color:white;
+    background-color: rgb(44, 44, 44);
+    border-radius: .5rem;
+    border: 1px solid gray;
+    resize: none;
+}
+
+#result{
+    background-color: rgba(138, 63, 237, 0.17);
+}
