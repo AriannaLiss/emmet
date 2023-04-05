@@ -73,4 +73,7 @@ body{
 
 #result{
     background-color: rgba(138, 63, 237, 0.17);
+    white-space:pre;
+    -moz-tab-size: 4; /* Firefox */
+    tab-size: 4;
 }

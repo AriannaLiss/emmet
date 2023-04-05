@@ -7,12 +7,12 @@
     <title>Emmet</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="./code/index.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Please input your code</h1>
         <p class="example">Example: <span>.one>div^a</span><br>
-        Up to 3 levels (<span>.one>div^a>span</span> returns error)<br>
         New raw is a new level.<br>
         . - class<br>
         # - id<br>
@@ -25,7 +25,7 @@
                 <nav class="control">
                     <input type="button" id="toCode-btn" value=">>">
                 </nav>
-                <textarea class="code-area" name="code" id="user-code" cols="30" rows="10"></textarea>
+                <textarea class="code-area" name="code" id="user-code" cols="30" rows="10">.one>div^a</textarea>
             </div>
             <div class="window">
                 <nav class="control"></nav>
